@@ -1,0 +1,7 @@
+USE master;
+GO
+IF DB_ID ( N'Library') IS NOT NULL
+DROP DATABASE Library;
+GO
+CREATE DATABASE Library;
+GO
